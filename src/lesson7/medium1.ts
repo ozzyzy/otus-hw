@@ -5,13 +5,10 @@
 // Нужно заменить FIXME на правильный тип вычисленный на основе Order
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
-type FIXME = any;
 
-type T = {
-    [index in 'state']: ("inWork" | "initial")
-}
+type S = { state: "initial" } | { state: "inWork" };
 
-type FilteredOrder = (T | null) ;
+type FilteredOrder = Extract<Order, S> | null;
 
 type Order =
     | {
