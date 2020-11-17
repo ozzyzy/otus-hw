@@ -1,18 +1,9 @@
-import React from "react";
-import { render } from "react-dom";
+import React from "react"
+import ReactDOM from "react-dom"
 
-// import { InteractiveField, Field } from "./components";
+import App from "./App"
 
-// render(
-//   <InteractiveField
-//     xSize={3}
-//     ySize={3}
-//     playerMarks={["x", "y"]}
-//     fieldComponent={Field}
-//   />,
-//   document.getElementById("root")
-// );
-render(
-    <p>Hello</p>,
+ReactDOM.render(
+    <App />,
     document.getElementById("root")
-);
+)
