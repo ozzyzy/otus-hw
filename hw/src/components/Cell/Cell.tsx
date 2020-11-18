@@ -17,16 +17,12 @@ const DefaultCell = styled.div`
   border: 1px solid black;
 `;
 
-export const Cell: FC<ICell> = ({x, y}) => {
+export const Cell: FC<ICell> = ({x, y, clickHandler}) => {
     const [content, setContent] = useState('');
-
-    function clickHandler() {
-        setContent(`${x}`);
-    }
 
     return (
         <DefaultCell
-            onClick={() => clickHandler()}
+            onClick={() => {setContent(`${x}`); clickHandler(x, y);}}
         > {content}
         </DefaultCell>
     )

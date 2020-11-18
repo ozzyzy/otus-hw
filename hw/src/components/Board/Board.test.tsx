@@ -4,31 +4,22 @@ import {shallow} from 'enzyme';
 import renderer from "react-test-renderer";
 
 describe("Board", () => {
-    // const x = 1;
-    // const y = 1;
-    // const key = '1-1';
-    // const clickHandler = jest.fn();
-    //
-    // it("should show cell", () => {
-    //     expect(renderer.create(
-    //         <Cell
-    //             x={x}
-    //             y={y}
-    //             key={key}
-    //             clickHandler={clickHandler}/>
-    //         ).toJSON()
-    //     ).toMatchSnapshot();
-    // });
+    const x = 1;
+    const y = 1;
+    const key = '1-1';
+    const clickHandler = jest.fn();
 
-    // it('should pass content', () => {
-    //     const wrapper = shallow(
-    //         <Cell x={x} y={y} key={key} clickHandler={clickHandler}/>
-    //     );
-    //     const button = wrapper.find('#cell');
-    //     console.log(button, 1111)
-    //     // const instance = wrapper.instance();
-    //     // instance.clickHandler = jest.fn(instance.btnC)
-    //     // button.simulate('click');
-    //     // expect(clickHandler).toBeCalledWith(x, y);
-    // });
+    it("should show empty board", () => {
+        expect(renderer.create(
+            <Board clickHandler={clickHandler} size={[0, 0]}/>
+            ).toJSON()
+        ).toMatchSnapshot();
+    });
+
+    it("should show not empty board", () => {
+        expect(renderer.create(
+            <Board clickHandler={clickHandler} size={[8, 8]}/>
+            ).toJSON()
+        ).toMatchSnapshot();
+    });
 });

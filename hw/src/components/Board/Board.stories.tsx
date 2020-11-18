@@ -8,8 +8,10 @@ export default {
     decorators: [withKnobs]
 }
 
+const elementClicked = action("Cell is clicked");
+
 export const BoardStory = () => [
     <Board
-        clickHandler={action("Cell is clicked")}
+        clickHandler={elementClicked}
         size={[8, 8]}/>
 ];

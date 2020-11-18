@@ -20,15 +20,12 @@ describe("Cell", () => {
         ).toMatchSnapshot();
     });
 
-    // it('should pass content', () => {
-    //     const wrapper = shallow(
-    //         <Cell x={x} y={y} key={key} clickHandler={clickHandler}/>
-    //     );
-    //     const button = wrapper.find('#cell');
-    //     console.log(button, 1111)
-    //     // const instance = wrapper.instance();
-    //     // instance.clickHandler = jest.fn(instance.btnC)
-    //     // button.simulate('click');
-    //     // expect(clickHandler).toBeCalledWith(x, y);
-    // });
+    it('should click', () => {
+        const wrapper = shallow(
+            <Cell x={x} y={y} key={key} clickHandler={clickHandler}/>
+        );
+        wrapper.simulate('click');
+
+        expect(clickHandler).toBeCalledWith(x, y);
+    });
 });

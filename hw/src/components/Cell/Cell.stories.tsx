@@ -1,6 +1,6 @@
 import React from "react";
 import {Cell} from "./Cell";
-import {number, withKnobs} from "@storybook/addon-knobs";
+import {number, withKnobs, text} from "@storybook/addon-knobs";
 import {action} from "@storybook/addon-actions";
 
 export default {
@@ -16,3 +16,4 @@ export const CellStory = () => [
         key="1-2"
     />
 ];
+
