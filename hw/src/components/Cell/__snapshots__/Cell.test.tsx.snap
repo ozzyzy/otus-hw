@@ -5,7 +5,5 @@ exports[`Cell should show cell 1`] = `
   className="css-cyprvm"
   onClick={[Function]}
 >
-   
-  
 </div>
 `;

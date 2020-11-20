@@ -22,7 +22,10 @@ export const Cell: FC<ICell> = ({x, y, clickHandler}) => {
 
     return (
         <DefaultCell
-            onClick={() => {setContent(`${x}`); clickHandler(x, y);}}
+            onClick={() => {
+                setContent(`${x}`);
+                clickHandler(x, y);
+            }}
         > {content}
         </DefaultCell>
     )

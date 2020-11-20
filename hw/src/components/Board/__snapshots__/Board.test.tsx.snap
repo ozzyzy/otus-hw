@@ -1,0 +1,971 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Board should show empty board 1`] = `
+<div>
+  <div
+    className="css-d3pr11"
+  >
+    <div
+      className="css-cyprvm"
+      onClick={[Function]}
+    >
+       
+      
+    </div>
+    <div
+      className="css-cyprvm"
+      onClick={[Function]}
+    >
+       
+      
+    </div>
+    <div
+      className="css-cyprvm"
+      onClick={[Function]}
+    >
+       
+      
+    </div>
+    <div
+      className="css-cyprvm"
+      onClick={[Function]}
+    >
+       
+      
+    </div>
+    <div
+      className="css-cyprvm"
+      onClick={[Function]}
+    >
+       
+      
+    </div>
+    <div
+      className="css-cyprvm"
+      onClick={[Function]}
+    >
+       
+      
+    </div>
+    <div
+      className="css-cyprvm"
+      onClick={[Function]}
+    >
+       
+      
+    </div>
+    <div
+      className="css-cyprvm"
+      onClick={[Function]}
+    >
+       
+      
+    </div>
+  </div>
+  <div
+    className="css-d3pr11"
+  >
+    <div
+      className="css-cyprvm"
+      onClick={[Function]}
+    >
+       
+      
+    </div>
+    <div
+      className="css-cyprvm"
+      onClick={[Function]}
+    >
+       
+      
+    </div>
+    <div
+      className="css-cyprvm"
+      onClick={[Function]}
+    >
+       
+      
+    </div>
+    <div
+      className="css-cyprvm"
+      onClick={[Function]}
+    >
+       
+      
+    </div>
+    <div
+      className="css-cyprvm"
+      onClick={[Function]}
+    >
+       
+      
+    </div>
+    <div
+      className="css-cyprvm"
+      onClick={[Function]}
+    >
+       
+      
+    </div>
+    <div
+      className="css-cyprvm"
+      onClick={[Function]}
+    >
+       
+      
+    </div>
+    <div
+      className="css-cyprvm"
+      onClick={[Function]}
+    >
+       
+      
+    </div>
+  </div>
+  <div
+    className="css-d3pr11"
+  >
+    <div
+      className="css-cyprvm"
+      onClick={[Function]}
+    >
+       
+      
+    </div>
+    <div
+      className="css-cyprvm"
+      onClick={[Function]}
+    >
+       
+      
+    </div>
+    <div
+      className="css-cyprvm"
+      onClick={[Function]}
+    >
+       
+      
+    </div>
+    <div
+      className="css-cyprvm"
+      onClick={[Function]}
+    >
+       
+      
+    </div>
+    <div
+      className="css-cyprvm"
+      onClick={[Function]}
+    >
+       
+      
+    </div>
+    <div
+      className="css-cyprvm"
+      onClick={[Function]}
+    >
+       
+      
+    </div>
+    <div
+      className="css-cyprvm"
+      onClick={[Function]}
+    >
+       
+      
+    </div>
+    <div
+      className="css-cyprvm"
+      onClick={[Function]}
+    >
+       
+      
+    </div>
+  </div>
+  <div
+    className="css-d3pr11"
+  >
+    <div
+      className="css-cyprvm"
+      onClick={[Function]}
+    >
+       
+      
+    </div>
+    <div
+      className="css-cyprvm"
+      onClick={[Function]}
+    >
+       
+      
+    </div>
+    <div
+      className="css-cyprvm"
+      onClick={[Function]}
+    >
+       
+      
+    </div>
+    <div
+      className="css-cyprvm"
+      onClick={[Function]}
+    >
+       
+      
+    </div>
+    <div
+      className="css-cyprvm"
+      onClick={[Function]}
+    >
+       
+      
+    </div>
+    <div
+      className="css-cyprvm"
+      onClick={[Function]}
+    >
+       
+      
+    </div>
+    <div
+      className="css-cyprvm"
+      onClick={[Function]}
+    >
+       
+      
+    </div>
+    <div
+      className="css-cyprvm"
+      onClick={[Function]}
+    >
+       
+      
+    </div>
+  </div>
+  <div
+    className="css-d3pr11"
+  >
+    <div
+      className="css-cyprvm"
+      onClick={[Function]}
+    >
+       
+      
+    </div>
+    <div
+      className="css-cyprvm"
+      onClick={[Function]}
+    >
+       
+      
+    </div>
+    <div
+      className="css-cyprvm"
+      onClick={[Function]}
+    >
+       
+      
+    </div>
+    <div
+      className="css-cyprvm"
+      onClick={[Function]}
+    >
+       
+      
+    </div>
+    <div
+      className="css-cyprvm"
+      onClick={[Function]}
+    >
+       
+      
+    </div>
+    <div
+      className="css-cyprvm"
+      onClick={[Function]}
+    >
+       
+      
+    </div>
+    <div
+      className="css-cyprvm"
+      onClick={[Function]}
+    >
+       
+      
+    </div>
+    <div
+      className="css-cyprvm"
+      onClick={[Function]}
+    >
+       
+      
+    </div>
+  </div>
+  <div
+    className="css-d3pr11"
+  >
+    <div
+      className="css-cyprvm"
+      onClick={[Function]}
+    >
+       
+      
+    </div>
+    <div
+      className="css-cyprvm"
+      onClick={[Function]}
+    >
+       
+      
+    </div>
+    <div
+      className="css-cyprvm"
+      onClick={[Function]}
+    >
+       
+      
+    </div>
+    <div
+      className="css-cyprvm"
+      onClick={[Function]}
+    >
+       
+      
+    </div>
+    <div
+      className="css-cyprvm"
+      onClick={[Function]}
+    >
+       
+      
+    </div>
+    <div
+      className="css-cyprvm"
+      onClick={[Function]}
+    >
+       
+      
+    </div>
+    <div
+      className="css-cyprvm"
+      onClick={[Function]}
+    >
+       
+      
+    </div>
+    <div
+      className="css-cyprvm"
+      onClick={[Function]}
+    >
+       
+      
+    </div>
+  </div>
+  <div
+    className="css-d3pr11"
+  >
+    <div
+      className="css-cyprvm"
+      onClick={[Function]}
+    >
+       
+      
+    </div>
+    <div
+      className="css-cyprvm"
+      onClick={[Function]}
+    >
+       
+      
+    </div>
+    <div
+      className="css-cyprvm"
+      onClick={[Function]}
+    >
+       
+      
+    </div>
+    <div
+      className="css-cyprvm"
+      onClick={[Function]}
+    >
+       
+      
+    </div>
+    <div
+      className="css-cyprvm"
+      onClick={[Function]}
+    >
+       
+      
+    </div>
+    <div
+      className="css-cyprvm"
+      onClick={[Function]}
+    >
+       
+      
+    </div>
+    <div
+      className="css-cyprvm"
+      onClick={[Function]}
+    >
+       
+      
+    </div>
+    <div
+      className="css-cyprvm"
+      onClick={[Function]}
+    >
+       
+      
+    </div>
+  </div>
+  <div
+    className="css-d3pr11"
+  >
+    <div
+      className="css-cyprvm"
+      onClick={[Function]}
+    >
+       
+      
+    </div>
+    <div
+      className="css-cyprvm"
+      onClick={[Function]}
+    >
+       
+      
+    </div>
+    <div
+      className="css-cyprvm"
+      onClick={[Function]}
+    >
+       
+      
+    </div>
+    <div
+      className="css-cyprvm"
+      onClick={[Function]}
+    >
+       
+      
+    </div>
+    <div
+      className="css-cyprvm"
+      onClick={[Function]}
+    >
+       
+      
+    </div>
+    <div
+      className="css-cyprvm"
+      onClick={[Function]}
+    >
+       
+      
+    </div>
+    <div
+      className="css-cyprvm"
+      onClick={[Function]}
+    >
+       
+      
+    </div>
+    <div
+      className="css-cyprvm"
+      onClick={[Function]}
+    >
+       
+      
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Board should show not empty board 1`] = `
+<div>
+  <div
+    className="css-d3pr11"
+  >
+    <div
+      className="css-cyprvm"
+      onClick={[Function]}
+    >
+       
+      
+    </div>
+    <div
+      className="css-cyprvm"
+      onClick={[Function]}
+    >
+       
+      
+    </div>
+    <div
+      className="css-cyprvm"
+      onClick={[Function]}
+    >
+       
+      
+    </div>
+    <div
+      className="css-cyprvm"
+      onClick={[Function]}
+    >
+       
+      
+    </div>
+    <div
+      className="css-cyprvm"
+      onClick={[Function]}
+    >
+       
+      
+    </div>
+    <div
+      className="css-cyprvm"
+      onClick={[Function]}
+    >
+       
+      
+    </div>
+    <div
+      className="css-cyprvm"
+      onClick={[Function]}
+    >
+       
+      
+    </div>
+    <div
+      className="css-cyprvm"
+      onClick={[Function]}
+    >
+       
+      
+    </div>
+  </div>
+  <div
+    className="css-d3pr11"
+  >
+    <div
+      className="css-cyprvm"
+      onClick={[Function]}
+    >
+       
+      
+    </div>
+    <div
+      className="css-cyprvm"
+      onClick={[Function]}
+    >
+       
+      
+    </div>
+    <div
+      className="css-cyprvm"
+      onClick={[Function]}
+    >
+       
+      
+    </div>
+    <div
+      className="css-cyprvm"
+      onClick={[Function]}
+    >
+       
+      
+    </div>
+    <div
+      className="css-cyprvm"
+      onClick={[Function]}
+    >
+       
+      
+    </div>
+    <div
+      className="css-cyprvm"
+      onClick={[Function]}
+    >
+       
+      
+    </div>
+    <div
+      className="css-cyprvm"
+      onClick={[Function]}
+    >
+       
+      
+    </div>
+    <div
+      className="css-cyprvm"
+      onClick={[Function]}
+    >
+       
+      
+    </div>
+  </div>
+  <div
+    className="css-d3pr11"
+  >
+    <div
+      className="css-cyprvm"
+      onClick={[Function]}
+    >
+       
+      
+    </div>
+    <div
+      className="css-cyprvm"
+      onClick={[Function]}
+    >
+       
+      
+    </div>
+    <div
+      className="css-cyprvm"
+      onClick={[Function]}
+    >
+       
+      
+    </div>
+    <div
+      className="css-cyprvm"
+      onClick={[Function]}
+    >
+       
+      
+    </div>
+    <div
+      className="css-cyprvm"
+      onClick={[Function]}
+    >
+       
+      
+    </div>
+    <div
+      className="css-cyprvm"
+      onClick={[Function]}
+    >
+       
+      
+    </div>
+    <div
+      className="css-cyprvm"
+      onClick={[Function]}
+    >
+       
+      
+    </div>
+    <div
+      className="css-cyprvm"
+      onClick={[Function]}
+    >
+       
+      
+    </div>
+  </div>
+  <div
+    className="css-d3pr11"
+  >
+    <div
+      className="css-cyprvm"
+      onClick={[Function]}
+    >
+       
+      
+    </div>
+    <div
+      className="css-cyprvm"
+      onClick={[Function]}
+    >
+       
+      
+    </div>
+    <div
+      className="css-cyprvm"
+      onClick={[Function]}
+    >
+       
+      
+    </div>
+    <div
+      className="css-cyprvm"
+      onClick={[Function]}
+    >
+       
+      
+    </div>
+    <div
+      className="css-cyprvm"
+      onClick={[Function]}
+    >
+       
+      
+    </div>
+    <div
+      className="css-cyprvm"
+      onClick={[Function]}
+    >
+       
+      
+    </div>
+    <div
+      className="css-cyprvm"
+      onClick={[Function]}
+    >
+       
+      
+    </div>
+    <div
+      className="css-cyprvm"
+      onClick={[Function]}
+    >
+       
+      
+    </div>
+  </div>
+  <div
+    className="css-d3pr11"
+  >
+    <div
+      className="css-cyprvm"
+      onClick={[Function]}
+    >
+       
+      
+    </div>
+    <div
+      className="css-cyprvm"
+      onClick={[Function]}
+    >
+       
+      
+    </div>
+    <div
+      className="css-cyprvm"
+      onClick={[Function]}
+    >
+       
+      
+    </div>
+    <div
+      className="css-cyprvm"
+      onClick={[Function]}
+    >
+       
+      
+    </div>
+    <div
+      className="css-cyprvm"
+      onClick={[Function]}
+    >
+       
+      
+    </div>
+    <div
+      className="css-cyprvm"
+      onClick={[Function]}
+    >
+       
+      
+    </div>
+    <div
+      className="css-cyprvm"
+      onClick={[Function]}
+    >
+       
+      
+    </div>
+    <div
+      className="css-cyprvm"
+      onClick={[Function]}
+    >
+       
+      
+    </div>
+  </div>
+  <div
+    className="css-d3pr11"
+  >
+    <div
+      className="css-cyprvm"
+      onClick={[Function]}
+    >
+       
+      
+    </div>
+    <div
+      className="css-cyprvm"
+      onClick={[Function]}
+    >
+       
+      
+    </div>
+    <div
+      className="css-cyprvm"
+      onClick={[Function]}
+    >
+       
+      
+    </div>
+    <div
+      className="css-cyprvm"
+      onClick={[Function]}
+    >
+       
+      
+    </div>
+    <div
+      className="css-cyprvm"
+      onClick={[Function]}
+    >
+       
+      
+    </div>
+    <div
+      className="css-cyprvm"
+      onClick={[Function]}
+    >
+       
+      
+    </div>
+    <div
+      className="css-cyprvm"
+      onClick={[Function]}
+    >
+       
+      
+    </div>
+    <div
+      className="css-cyprvm"
+      onClick={[Function]}
+    >
+       
+      
+    </div>
+  </div>
+  <div
+    className="css-d3pr11"
+  >
+    <div
+      className="css-cyprvm"
+      onClick={[Function]}
+    >
+       
+      
+    </div>
+    <div
+      className="css-cyprvm"
+      onClick={[Function]}
+    >
+       
+      
+    </div>
+    <div
+      className="css-cyprvm"
+      onClick={[Function]}
+    >
+       
+      
+    </div>
+    <div
+      className="css-cyprvm"
+      onClick={[Function]}
+    >
+       
+      
+    </div>
+    <div
+      className="css-cyprvm"
+      onClick={[Function]}
+    >
+       
+      
+    </div>
+    <div
+      className="css-cyprvm"
+      onClick={[Function]}
+    >
+       
+      
+    </div>
+    <div
+      className="css-cyprvm"
+      onClick={[Function]}
+    >
+       
+      
+    </div>
+    <div
+      className="css-cyprvm"
+      onClick={[Function]}
+    >
+       
+      
+    </div>
+  </div>
+  <div
+    className="css-d3pr11"
+  >
+    <div
+      className="css-cyprvm"
+      onClick={[Function]}
+    >
+       
+      
+    </div>
+    <div
+      className="css-cyprvm"
+      onClick={[Function]}
+    >
+       
+      
+    </div>
+    <div
+      className="css-cyprvm"
+      onClick={[Function]}
+    >
+       
+      
+    </div>
+    <div
+      className="css-cyprvm"
+      onClick={[Function]}
+    >
+       
+      
+    </div>
+    <div
+      className="css-cyprvm"
+      onClick={[Function]}
+    >
+       
+      
+    </div>
+    <div
+      className="css-cyprvm"
+      onClick={[Function]}
+    >
+       
+      
+    </div>
+    <div
+      className="css-cyprvm"
+      onClick={[Function]}
+    >
+       
+      
+    </div>
+    <div
+      className="css-cyprvm"
+      onClick={[Function]}
+    >
+       
+      
+    </div>
+  </div>
+</div>
+`;

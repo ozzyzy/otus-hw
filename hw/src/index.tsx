@@ -1,9 +1,8 @@
 import React from "react"
 import ReactDOM from "react-dom"
-
-import App from "./App"
+import {Board} from "./components/Board/Board";
 
 ReactDOM.render(
-    <App />,
+    <Board/>,
     document.getElementById("root")
 )
