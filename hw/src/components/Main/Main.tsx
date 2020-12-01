@@ -11,6 +11,8 @@ interface GameState {
 }
 
 export class Main extends React.Component<GameProp, GameState> {
+  controller: AbortController;
+
   constructor(props: GameProp) {
     super(props);
     this.clickHandler = this.clickHandler.bind(this);
@@ -18,17 +20,23 @@ export class Main extends React.Component<GameProp, GameState> {
       x: 1,
       y: 1,
     };
+    this.controller = new AbortController();
   }
 
   componentDidMount() {
-    fetch("https://jsonplaceholder.typicode.com/todos/1")
+    fetch("https://jsonplaceholder.typicode.com/todos/1", {
+      signal: this.controller.signal,
+    })
       .then((res) => res.json())
       .then(
-        (result) => {
-          console.log(result);
+        () => {
+          this.setState({
+            x: 2,
+            y: 2,
+          });
         },
-        (error) => {
-          console.log(error);
+        () => {
+          return;
         }
       );
   }
@@ -42,11 +50,27 @@ export class Main extends React.Component<GameProp, GameState> {
     return currentX !== newX || currentY !== newY;
   }
 
+  componentDidUpdate(
+    prevProps: Readonly<GameProp>,
+    prevState: Readonly<GameState>
+  ) {
+    if (prevState.x !== this.state.x) {
+      this.setState({
+        x: prevState.x + 1,
+        y: prevState.y + 1,
+      });
+    }
+  }
+
+  componentWillUnmount() {
+    this.controller.abort();
+  }
+
   clickHandler() {
     return true;
   }
 
   render() {
-    return <Board size={this.props.size} clickHandler={this.clickHandler} />;
+    return <Board size={[8, 8]} clickHandler={this.clickHandler} />;
   }
 }
