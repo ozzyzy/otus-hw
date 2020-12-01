@@ -20,6 +20,28 @@ export class Main extends React.Component<GameProp, GameState> {
     };
   }
 
+  componentDidMount() {
+    fetch("https://jsonplaceholder.typicode.com/todos/1")
+      .then((res) => res.json())
+      .then(
+        (result) => {
+          console.log(result);
+        },
+        (error) => {
+          console.log(error);
+        }
+      );
+  }
+
+  shouldComponentUpdate(
+    nextProps: Readonly<GameProp>,
+    nextState: Readonly<GameState>
+  ): boolean {
+    const { x: currentX, y: currentY } = this.state;
+    const { x: newX, y: newY } = nextState;
+    return currentX !== newX || currentY !== newY;
+  }
+
   clickHandler() {
     return true;
   }
