@@ -12,7 +12,6 @@ interface GameState {
 
 export class Main extends React.Component<GameProp, GameState> {
   controller: AbortController;
-
   constructor(props: GameProp) {
     super(props);
     this.clickHandler = this.clickHandler.bind(this);
@@ -21,6 +20,7 @@ export class Main extends React.Component<GameProp, GameState> {
       y: 1,
     };
     this.controller = new AbortController();
+    global.fetch = require("node-fetch");
   }
 
   componentDidMount() {
