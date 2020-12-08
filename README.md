@@ -1,1 +1,1 @@
-# otus-homeworks
+otus-hm
