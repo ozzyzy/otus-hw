@@ -14,7 +14,6 @@ const BoardContainer = styled.div`
 `;
 
 export const Board: FC<IBoard> = (({size, clickHandler}) => {
-    size = [8, 8];
     const board = [];
     for (let i = 0; i < size[0]; i++) {
         const row = [];
@@ -38,5 +37,4 @@ export const Board: FC<IBoard> = (({size, clickHandler}) => {
             </BoardContainer>
         })}
     </div>;
-
 })
